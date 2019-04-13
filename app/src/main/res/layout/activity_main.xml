@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#000000">
+
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:src="@drawable/images"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Payment Reminder"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:paddingTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#181009"/>
+    <Button
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="ADD CUSTOMER"
+        android:textStyle="bold"
+        android:id="@+id/btn1" />
+    <Button
+        android:layout_marginBottom="25dp"
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn1"
+        android:layout_centerHorizontal="true"
+        android:text="VIEW CUSTOMER"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp"
+        android:text="UPDATE CUSTOMER"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_marginBottom="25dp"
+        android:id="@+id/btn4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn3"
+        android:layout_centerHorizontal="true"
+        android:text="DELETE CUSTOMER"
+        android:textStyle="bold" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SENT MESSAGE"
+        android:layout_below="@id/btn4"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:id="@+id/msgbtn"
+        android:layout_marginTop="25dp"
+        android:background="#fc1e0d"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:text="made by Manish Taori"
+        android:textColor="#ffffff"/>
+</RelativeLayout>
